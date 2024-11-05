@@ -59,8 +59,6 @@ function leaveit() {
     alert("The End!")
 }
 
-
-
 function autoshop() {
 let choice = prompt("You hear strange noises. Do you (1) investigate or (2) run away?")
 if (choice == 1)
@@ -78,3 +76,43 @@ function run() {
     alert("You trip and fall... The ghost catches you!")
     alert("The End!")
 }
+
+
+
+
+
+
+
+
+
+function menu() {
+// Setup the menu
+let message = `Hi! Please make a selection:
+1 - Play
+2 - Options
+3 - DLC
+4 - Check for Updates
+5 - Exit
+`
+// Prompt with the menu
+let selection = Number(prompt(message));
+if (selection == 1) {
+    alert ("Lets play!")
+    
+}
+else if (selection == 2){
+    alert("You selected Options.")
+
+}
+else if (selection == 3) {
+    alert("No new DLC at this time.")
+}
+else if (selection == 4) {
+    alert("Everything is up to date")
+}
+else if(selection == 5){
+    alert("Bye!")
+}
+}
+
+
