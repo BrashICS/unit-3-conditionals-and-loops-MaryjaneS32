@@ -115,4 +115,46 @@ else if(selection == 5){
 }
 }
 
+function countup(x) {
+let n = 1 
+while (n <=x) {
+    console.log(n)
+n = n+1
+}
+}
 
+function countdown(start, stop){
+    let n = start
+    while (n>=stop)  {
+        console.log(n)
+n = n-1
+
+}
+}
+
+function random_until(min, max, stop) {
+    if (max <= min){
+        return -1
+    }
+    if (stop > max || stop > max) {
+return -1 
+    }
+    let x = randInt(min, max) 
+    while (x !=stop) {
+        console.log(x)
+x = randInt(min, max)
+} 
+return stop
+}
+
+function average(n) {
+    let avg = 0
+    let count = 1
+    avg += +prompt(`Please enter value ${count}/${n}`)
+    while(count <=n) {
+        count = count +1
+
+    }
+avg = round(avg/n, 1)
+console.log(`The average is ${avg}`)
+}
