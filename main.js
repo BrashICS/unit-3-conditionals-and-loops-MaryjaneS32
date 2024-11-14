@@ -158,3 +158,4 @@ function average(n) {
 avg = round(avg/n, 1)
 console.log(`The average is ${avg}`)
 }
+
