@@ -159,3 +159,27 @@ avg = round(avg/n, 1)
 console.log(`The average is ${avg}`)
 }
 
+function print_reverse(str) {
+let output = ""
+let i = str.length -1 
+while (i >= 0) {
+    output += str[i]
+    i--
+}
+     console.log(output)               
+}
+
+function dragons_goblins(str) {
+    let dragons = 0
+    let goblins = 0
+    let i = 0
+    while (i < String.length) {
+    if (str[i] == "d"){
+        dragons++
+    } else if (str[i] == "g"){
+        goblins = goblins + 1
+    }
+        i++
+    }
+    console.log(`Dragons: ${dragons} Goblins: ${goblins}`)
+} 
