@@ -183,3 +183,8 @@ function dragons_goblins(str) {
     }
     console.log(`Dragons: ${dragons} Goblins: ${goblins}`)
 } 
+
+
+function print_odd() {
+    
+}
